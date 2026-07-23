@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        ul{
+            display: flex;
+            gap: 2rem;
+        }
+        li{
+            list-style: none;
+        }
+        .logo{
+            display: flex;
+            justify-content: space-between;
+            background-color: blue;
+            color: white;
+            padding: 25px 50px;
+            font-size: 18px;
+        }
+        .logo div{
+            display: flex;
+            gap: 1rem
+            ;
+        }
+        .img{
+            background: url(/image/img.webp);
+            height: 90vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;  
+        }
+        .img h2{
+            font-size: 40px;
+            color: white;
+            text-align: center;
+        }
+        button{
+            padding: 6px 15px;
+            margin-top: 25%;
+            border: none;
+        }
+        div .blue{
+            background-color: lightseagreen;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="logo">
+            <div>
+                <i class="fa-solid fa-sun"></i>
+                StartupAMP
+            </div>
+            <ul>
+                <li>Home</li>
+                <li>More Demos</li>
+                <li>Watch Video</li>
+                <li>Buy Now</li>
+            </ul>
+        </div>
+        <div class="img">
+            <h2>Startup AMP HTML <br>Template</h2>
+            <div class="button">
+                <button class="blue">Buy Now</button>
+                <button>Demo Pages</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
